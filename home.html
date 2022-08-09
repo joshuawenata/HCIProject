@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Titan+One&display=swap" rel="stylesheet">
+</head>
+<style>
+    *{
+        background-color: #004c4c;
+        margin: 0;
+        padding: 0;
+    }
+    .text1{
+        font-family: 'Titan One', cursive;
+        color: #b2d8d8;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    .text2{
+        font-family: 'Titan One', cursive;
+        color: #66b2b2;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    .text3{
+        font-family: 'Titan One', cursive;
+        color: #66b2b2;
+        text-align: center;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+        position: absolute;
+        z-index: 1;
+        margin-top: 405px;
+        margin-left: 350px;
+    }
+    .link{
+        font-family: 'Titan One', cursive;
+        text-decoration: none;
+        color: 	#bae1ff;
+        margin-left: 30px;
+        font-size: 25px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    .link1{
+        font-family: 'Titan One', cursive;
+        text-decoration: none;
+        color: 	#ffffba;
+        margin-left: 30px;
+        font-size: 25px;
+        -webkit-text-stroke-width: 1px;
+        -webkit-text-stroke-color: black;
+    }
+    #profilepict{
+        border-radius: 50%;
+        max-height: 30%;
+        max-width: 30%;
+        margin-top: 15%;
+        margin-left: 370px;
+        position: absolute;
+        z-index: 1;
+    }
+    nav{
+        position: sticky;
+        margin-top: 30px;
+    }
+    body{
+        position: absolute;
+        margin-left: 300px;
+    }
+    #loc{
+        max-width: 50px;
+        max-height: 50px;
+        border-radius: 50%;
+        position: absolute;
+        margin-top: 30px;
+        margin-left: 220px;
+    }
+    #canvas{
+        position: relative;
+    }
+    #brush{
+        position: relative;
+        margin-left: 220px;
+        max-height: 500px;
+        max-width: 500px;
+    }
+    #ig{
+        max-height: 50px;
+        max-width: 50px;
+        position: absolute;
+        margin-left: 300px;
+        margin-top: 400px;
+        z-index: 1;
+    }
+    </style>
+<nav>
+    <a href="./home.html" class="link1">Home</a>
+    <a href="./about.html" class="link">About</a>
+    <a href="./skills.html" class="link">Skills</a>
+    <a href="./services.html" class="link">Services</a>
+    <a href="./portfolio.html" class="link">Portfolio</a>
+    <a href="./contact.html" class="link">Contact & Comment</a>
+</nav>
+<body>
+    <div id="canvas">
+        <img src="./image/profile picture.jpg" id="profilepict">
+        <a href="https://www.instagram.com/joshuawenata/">
+            <img src="./image/instagram.png" id="ig">
+            <h1 class="text3">@joshuawenata</h1>
+        </a>
+        <img src="./image/brush.png" id="brush">
+        <h1 class="text1">Hello there, &ensp; Let me introduce myself!</h1>
+        <br>
+        <h1>
+            <span class="text1" style="margin-left: 200px;">I'm</span>
+            <span class="text2"> &ensp; Joshua Wenata Sunarto</span>
+        </h1>
+        <img src="./image/loc.jpg" id="loc">
+        <br><br>
+        <h1 class="text2" style="margin-left: 100px;">Taman Kopo Indah 1 G 136</h1>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
