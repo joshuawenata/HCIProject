@@ -4,4 +4,5 @@ Creating Portofolio Website using HTML, CSS, Javascript
 
 # How to run :
 
-1. Run the index.html file in browser
+1. Clone this repository
+2. Run the index.html file in browser
